@@ -1,4 +1,8 @@
-.calendar{
+body{
+    display: grid;
+    justify-content: center;
+}
+.calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
@@ -6,24 +10,47 @@
     justify-self: center;
 
 }
-.date{
+
+.date {
     background-color: darkseagreen;
-    border-radius: 5px;
-    width: 50px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
     filter: drop-shadow(1px 1px 3px);
 }
-.day{
+
+.day {
     background-color: rgb(3, 216, 216);
     display: flex;
-    width: 50px;
+    width: 40px;
+    height: 40px;
     filter: drop-shadow(1px 1px 3px);
-    border-radius: 5px;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.calendar-container {
+    background-color: antiquewhite;
+    width: 500px;
+    border: 1px solid white;
+    filter: drop-shadow(1px 1px 5px);
+}
+
+img {
+    width: 500px;
+    filter: drop-shadow(0px 1px 1px);
 }
