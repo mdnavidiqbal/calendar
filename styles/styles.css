@@ -1,0 +1,29 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-self: center;
+
+}
+.date{
+    background-color: darkseagreen;
+    border-radius: 5px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    filter: drop-shadow(1px 1px 3px);
+}
+.day{
+    background-color: rgb(3, 216, 216);
+    display: flex;
+    width: 50px;
+    filter: drop-shadow(1px 1px 3px);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
